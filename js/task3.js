@@ -14,7 +14,7 @@ next_binary_number([1, 0]); // [1,1]
 function next_binary_number(array) {
 
   if (!(array instanceof Array) || array.length == 0)
-    throw new Error("arr should be a not empty array");
+    throw new Error("Invalid array!");
 
   //if all the elements in the array are 1
   //add 1 to the first position and add with 0 based on the array length.
